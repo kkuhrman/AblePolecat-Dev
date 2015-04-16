@@ -1,9 +1,10 @@
 <?xml version="1.0" standalone="yes"?>
 <polecat_project xmlns:polecat="http://polecat.kuhrman.com/">
-  <polecat:package id="6f7bd8bb-e1f5-11e4-b585-0050569e00a2" name="AblePolecat" type="APP">
+  <polecat:package id="6f7bd8bb-e1f5-11e4-b585-0050569e00a2" name="AblePolecat-Dev" type="APP">
     <polecat:repositoryUrl>https://github.com/kkuhrman/AblePolecat</polecat:repositoryUrl>
+    <polecat:classPrefix>AblePolecatDev</polecat:classPrefix>
     <polecat:locaters>
-      <polecat:locater id="polecat-database-0.7.0" name="polecat">
+      <polecat:locater id="polecat-database-0.7.1" name="polecat">
         <polecat:dsn>mysql://user:password@localhost/database</polecat:dsn>
       </polecat:locater>
     </polecat:locaters>

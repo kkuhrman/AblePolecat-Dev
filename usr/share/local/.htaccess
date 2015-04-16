@@ -1,5 +1,5 @@
 ##
-# @file      AblePolecat-Stub/usr/share/local/.htaccess
+# @file      AblePolecat-Dev/usr/share/local/.htaccess
 # @brief     Example Apache host access settings.
 # @author    Karl Kuhrman
 # @copyright [BDS II License] (https://github.com/kkuhrman/AblePolecat/blob/master/LICENSE.md)
@@ -31,7 +31,7 @@ Options +MultiViews
   # define the base below relative to the server document root. 
   # (e.g. RewriteBase /polecat)
   #
-  RewriteBase /AblePolecat-Stub
+  # RewriteBase /AblePolecat-Dev
   
   #
   # Pass all requests not referring directly to files in the file system to
